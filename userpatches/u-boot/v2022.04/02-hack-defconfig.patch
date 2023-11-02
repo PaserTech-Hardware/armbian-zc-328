@@ -1,0 +1,32 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Igor Pecovnik <igor.pecovnik@****l.com>
+Date: Mon, 23 Oct 2023 12:25:11 +0800
+Subject: Patching u-boot rockchip files configs/evb-rk3288_defconfig
+
+Signed-off-by: Igor Pecovnik <igor.pecovnik@****l.com>
+---
+ configs/evb-rk3288_defconfig | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/configs/evb-rk3288_defconfig b/configs/evb-rk3288_defconfig
+index 97d4c14f65..e520b220c8 100644
+--- a/configs/evb-rk3288_defconfig
++++ b/configs/evb-rk3288_defconfig
+@@ -66,12 +66,12 @@ CONFIG_DM_ETH=y
+ CONFIG_ETH_DESIGNWARE=y
+ CONFIG_GMAC_ROCKCHIP=y
+ CONFIG_PINCTRL=y
+ CONFIG_SPL_PINCTRL=y
+ CONFIG_DM_PMIC=y
+-CONFIG_PMIC_ACT8846=y
+-CONFIG_REGULATOR_ACT8846=y
++CONFIG_PMIC_RK8XX=y
++CONFIG_REGULATOR_RK8XX=y
+ CONFIG_DM_REGULATOR_FIXED=y
+ CONFIG_PWM_ROCKCHIP=y
+ CONFIG_RAM=y
+ CONFIG_SPL_RAM=y
+ CONFIG_DEBUG_UART_SHIFT=2
+-- 
+Created with Armbian build tools https://github.com/armbian/build
+
