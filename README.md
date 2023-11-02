@@ -18,7 +18,7 @@ rkdeveloptool is already included in armbian build script, so you can use it dir
 ```
 # 0. Put your board into maskrom mode
 #    - Connect your board to PC via USB OTG port
-#    - Press and hold the "uboot" button near the EMCC chip (This is very important!)
+#    - Press and hold the "uboot" button near the EMMC chip (This is very important!)
 #    - Then connect the 12V power supply
 
 # 1. Download bootloader
