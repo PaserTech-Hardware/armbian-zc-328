@@ -13,8 +13,8 @@ Armbian patches for zc-328 board (third party &amp; hobby project, not offical)
 6. Flash your image to SD card and enjoy it!
 
 # Flashing to EMMC
-For flashing to EMMC, you can use rkdeveloptool. 
-rkdeveloptool is already included in armbian build script, so you can use it directly:
+For flashing to EMMC, you can use rkdeveloptool.   
+rkdeveloptool is already included in armbian build script, so you can use it directly:  
 ```
 # 0. Put your board into maskrom mode
 #    - Connect your board to PC via USB OTG port
@@ -56,8 +56,8 @@ zc-328主板的armbian补丁（这是一个第三方爱好者项目，非官方�
 6. 将镜像烧录到SD卡，大功告成！
 
 # 烧录到EMMC
-你可以使用rkdeveloptool来烧录镜像到EMMC。
-rkdeveloptool已经包含在armbian的编译脚本中，所以你可以直接使用：
+你可以使用rkdeveloptool来烧录镜像到EMMC。  
+rkdeveloptool已经包含在armbian的编译脚本中，所以你可以直接使用：  
 ```
 # 0. 将主板进入maskrom模式
 #    - 通过USB OTG口将主板连接到电脑
