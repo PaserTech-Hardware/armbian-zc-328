@@ -3,7 +3,7 @@ Armbian patches for zc-328 board (third party &amp; hobby project, not offical)
 
 # How to use
 1. Clone this repo to your local machine (or download zip file)
-2. Clone (armbian repo)[https://github.com/armbian/build] to your local machine
+2. Clone [armbian repo](https://github.com/armbian/build) to your local machine
 3. Copy all files in this repo to armbian directory (e.g. /home/username/armbian/build)
 4. Run armian build script to build your own image:
 ```
@@ -46,7 +46,7 @@ zc-328主板的armbian补丁（这是一个第三方爱好者项目，非官方�
 
 # 使用说明
 1. 将本项目克隆到本地（或者下载zip文件）
-2. 将armbian项目克隆到本地
+2. 将[armbian项目](https://github.com/armbian/build)克隆到本地
 3. 将本项目中的所有文件复制粘贴到armbian目录下（例如/home/username/armbian/build）
 4. 运行armbian的编译脚本来编译你自己的镜像：
 ```
