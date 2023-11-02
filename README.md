@@ -7,7 +7,7 @@ Armbian patches for zc-328 board (third party &amp; hobby project, not offical)
 3. Copy all files in this repo to armbian directory (e.g. /home/username/armbian/build)
 4. Run armian build script to build your own image:
 ```
-./compile.sh uboot BOARD=zc-328 NO_HOST_RELEASE_CHECK=yes BRANCH=current
+./compile.sh build BOARD=zc-328 NO_HOST_RELEASE_CHECK=yes BRANCH=current
 ```
 5. After build process is done, you can find your image in output/images directory (e.g. /home/username/armbian/build/output/images)
 6. Flash your image to SD card and enjoy it!
@@ -50,7 +50,7 @@ zc-328主板的armbian补丁（这是一个第三方爱好者项目，非官方�
 3. 将本项目中的所有文件复制粘贴到armbian目录下（例如/home/username/armbian/build）
 4. 运行armbian的编译脚本来编译你自己的镜像：
 ```
-./compile.sh uboot BOARD=zc-328 NO_HOST_RELEASE_CHECK=yes BRANCH=current
+./compile.sh build BOARD=zc-328 NO_HOST_RELEASE_CHECK=yes BRANCH=current
 ```
 5. 编译完成后，你可以在output/images目录下找到你的镜像（例如/home/username/armbian/build/output/images）
 6. 将镜像烧录到SD卡，大功告成！
